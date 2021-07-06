@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/:id/home', to: 'users#home'
+  get 'users/:id/home', to: 'users#home', as: 'users_home'
 
   get 'users/new'
 
